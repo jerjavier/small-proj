@@ -29,7 +29,7 @@ public class Snake{
     for(Cell cell : SnakeList){
       if(cell ==nextCell){
         return true;
-      }
+      } 
     }
         return false;
   }
